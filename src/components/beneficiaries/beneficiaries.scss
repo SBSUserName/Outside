@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.beneficiaries-wrapper {
+    background-color: white;
+    padding: 4rem 0 8rem 8rem;
+
+    h4 {
+        color: $primary-blue;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+}
+
+.beneficiaries-card-wrapper {
+    .image-div {
+        max-height: 367px;
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+}

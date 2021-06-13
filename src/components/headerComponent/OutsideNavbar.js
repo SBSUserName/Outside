@@ -8,9 +8,13 @@ export default class OutsideNavbar extends Component {
                 <Navbar.Brand href='#home' className="brand">
                     <h3 className="mb-0">COMPANY</h3>
                     <div className="d-flex justify-content-between">
-                        <h5 className="mb-0">-</h5>
+                        <div className="d-flex align-items-center">
+                            <div className="line"></div>
+                        </div>
                         <h5 className="mb-0">NAME</h5>
-                        <h5 className="mb-0">-</h5>
+                        <div className="d-flex align-items-center">
+                            <div className="line"></div>
+                        </div>
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />

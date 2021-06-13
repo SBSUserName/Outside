@@ -2,10 +2,17 @@
 
 .header-component-wrapper {
     padding-left: 55px;
+    margin-bottom: 24rem;
+
+    .line {
+        width: 25px;
+        background-color: $primary-blue;
+        height: 2px;
+    }
 
     .white-part {
         background-color: white;
-        height: 92vh;
+        height: 660px;
         position: relative;
 
         .header-image {

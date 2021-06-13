@@ -1,0 +1,23 @@
+.mission-wrapper {
+    padding-right: 55px;
+    margin-bottom: 21rem;
+
+    .red-part {
+        padding: 4rem 0;
+        background-color: #8c2531;
+        color: white;
+        position: relative;
+        height: 630px;
+
+        .mission-image {
+            position: absolute;
+            right: 75px;
+            bottom: -270px;
+            height: 500px;
+            width: calc(100% - 75px);
+            background-image: url("../../assets/images/red_design.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

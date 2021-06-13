@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+
+.gallery-wrapper {
+    padding-bottom: 7rem;
+
+    h4 {
+        color: $primary-blue;
+        margin-bottom: 0;
+        padding: 4rem 0;
+        font-weight: 700;
+        border-right: 1px solid rgba(0, 0, 0, 0.075);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    }
+
+    .gallery-contents {
+        display: flex;
+
+        .first,
+        .second,
+        .third {
+            width: 33%;
+        }
+
+        .first {
+            .gallery-card {
+                border-left: 1px solid rgba(0, 0, 0, 0.075);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+            }
+        }
+
+        .second {
+            .gallery-card {
+                border: 1px solid rgba(0, 0, 0, 0.075);
+            }
+        }
+
+        .third {
+            .gallery-card {
+                border-top: 1px solid rgba(0, 0, 0, 0.075);
+                border-right: 1px solid rgba(0, 0, 0, 0.075);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+            }
+        }
+    }
+
+    .gallery-card {
+        padding: 2.5rem;
+
+        p {
+            color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 0;
+        }
+    }
+}

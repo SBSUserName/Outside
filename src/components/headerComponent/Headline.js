@@ -15,7 +15,7 @@ export default class Headline extends Component {
                         <div style={{ border: "1px solid rgba(0,0,0,0.25)" }}></div>
 
                         <div className='p-3'>
-                            <i class='fas fa-chevron-right'></i>
+                            <i className='fas fa-chevron-right'></i>
                         </div>
                     </div>
                 </div>
