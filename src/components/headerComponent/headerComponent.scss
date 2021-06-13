@@ -1,0 +1,45 @@
+@import "../../variables.scss";
+
+.header-component-wrapper {
+    padding-left: 55px;
+
+    .white-part {
+        background-color: white;
+        height: 92vh;
+        position: relative;
+
+        .header-image {
+            position: absolute;
+            left: 75px;
+            bottom: -270px;
+            height: 500px;
+            width: calc(100% - 75px);
+            background-image: url("../../assets/images/headline_image.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .brand {
+        color: $primary-blue !important;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+        color: black !important;
+        margin-right: 2rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.headline-wrapper {
+    h1 {
+        color: $primary-blue;
+        width: 70%;
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+}
