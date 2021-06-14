@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import buildingTop from "../../assets/images/building_top.jpg";
 import BigHeadlineCard from "./BigHeadlineCard";
+import buildingTop from "../../assets/images/building_top.jpg";
+import buildingTop1 from "../../assets/images/building_top1.jpg";
+import buildingTop2 from "../../assets/images/building_top2.jpg";
+import buildingTop3 from "../../assets/images/building_top3.jpg";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -13,16 +16,20 @@ export default class SmLatestNews extends Component {
             imagesArr: [
                 {
                     imageName: buildingTop,
-                    title: "Morbi magna turpis dolor adipiscing",
+                    title: "Molestie molesti metus, tempus in commodo, semper tellus",
                 },
                 {
-                    imageName: buildingTop,
-                    title: "Curabitur cursus bibendum mauris placerat",
+                    imageName: buildingTop1,
+                    title: "Molestie molesti metus, tempus in commodo, semper tellus",
                 },
                 {
-                    imageName: buildingTop,
-                    title: "Nisi, sed dui, ac enim",
+                    imageName: buildingTop2,
+                    title: "In faucibus suspendisse magna massa nibh elementrum augue phasellus tristique senectus urna",
                 },
+                {
+                    imageName: buildingTop3,
+                    title: "Feugiat mollis quam sollicitudin egestas asipsiscing amet",
+                }
             ],
         };
     }
