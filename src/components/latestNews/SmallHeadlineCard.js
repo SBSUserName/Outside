@@ -1,15 +1,13 @@
-import React, { Component } from "react";
-import buildingTop from "../../assets/images/building_top.jpg";
+import React from 'react';
 
-export default class SmallHeadlineCard extends Component {
-    render() {
-        return (
-            <div className='bigheadline-card-wrapper'>
+const SmallHeadlineCard = ({imageName, title}) => {
+    return (
+        <div className='bigheadline-card-wrapper'>
                 <div
                     className='img-fluid mb-3'
                     style={{ maxHeight: 300, overflow: "hidden" }}>
                     <img
-                        src={buildingTop}
+                        src={imageName}
                         alt='visual aid'
                         className='img-fluid'
                     />
@@ -25,10 +23,16 @@ export default class SmallHeadlineCard extends Component {
 
                 <div className='title'>
                     <div className="p1">
-                        Molestie molesti metus, tempus in commodo, semper tellus
+                        {title}
                     </div>
                 </div>
             </div>
-        );
-    }
+    )
 }
+
+SmallHeadlineCard.default = {
+    imageName: "building_top",
+    title: "Molestie molesti metus, tempus in commodo, semper tellus"
+}
+
+export default SmallHeadlineCard

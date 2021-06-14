@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import BigHeadlineCard from "./BigHeadlineCard";
 import SmallHeadlineCard from "./SmallHeadlineCard";
 import SmLatestNews from "./SmLatestNews";
+import buildingTop from "../../assets/images/building_top.jpg";
+import buildingTop1 from "../../assets/images/building_top1.jpg";
+import buildingTop2 from "../../assets/images/building_top2.jpg";
+import buildingTop3 from "../../assets/images/building_top3.jpg";
 import "./latestNews.scss";
 
 export default class LatestNews extends Component {
@@ -15,7 +19,10 @@ export default class LatestNews extends Component {
                                 <h4>LATEST NEWS</h4>
 
                                 <div className='first-content'>
-                                    <BigHeadlineCard />
+                                    <BigHeadlineCard 
+                                        imageName={buildingTop}
+                                        title="Molestie molesti metus, tempus in commodo, semper tellus" 
+                                    />
                                 </div>
 
                                 <div className='see-all-news'>
@@ -29,15 +36,24 @@ export default class LatestNews extends Component {
                             </div>
 
                             <div className='second'>
-                                <BigHeadlineCard />
+                                <BigHeadlineCard 
+                                    imageName={buildingTop1}
+                                    title="Molestie molesti metus, tempus in commodo, semper tellus"
+                                />
 
                                 <div className='small'>
                                     <div className='sm-first'>
-                                        <SmallHeadlineCard />
+                                        <SmallHeadlineCard 
+                                            imageName={buildingTop2}
+                                            title="In faucibus suspendisse magna massa nibh elementrum augue phasellus tristique senectus urna" 
+                                        />
                                     </div>
 
                                     <div className='sm-second'>
-                                        <SmallHeadlineCard />
+                                        <SmallHeadlineCard 
+                                            imageName={buildingTop3}
+                                            title="Feugiat mollis quam sollicitudin egestas asipsiscing amet" 
+                                        />
                                     </div>
                                 </div>
                             </div>

@@ -123,7 +123,7 @@
         display: flex;
         align-items: center;
 
-        @media (max-width: 576px) {
+        @media (max-width: 991px) {
             display: none;
         }
 
@@ -151,7 +151,7 @@
             background-color: transparent;
         }
 
-        @media (max-width: 576px) {
+        @media (max-width: 991px) {
             display: flex;
         }
     }
@@ -163,7 +163,7 @@
         transition: 0.5s;
         top: -1000px;
         left: 0;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         position: fixed;
         z-index: 5;
@@ -223,7 +223,7 @@
             }
         }
 
-        @media (max-width: 575px) {
+        @media (max-width: 991px) {
             display: block;
         }
 
