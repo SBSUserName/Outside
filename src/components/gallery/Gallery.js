@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import gallery1 from "../../assets/images/gallery1.jpg";
 import gallery2 from "../../assets/images/gallery2.jpg";
 import gallery3 from "../../assets/images/gallery3.jpg";
+import SmGallery from "./SmGallery";
 import "./gallery.scss";
 
 export default class Gallery extends Component {
     render() {
         return (
+            <>
             <div className='gallery-wrapper'>
                 <div className='container'>
                     <div className='gallery-contents'>
@@ -56,6 +58,11 @@ export default class Gallery extends Component {
                     </div>
                 </div>
             </div>
+
+            <div className="sm-gallery-wrapper">
+                <SmGallery />
+            </div>
+            </>
         );
     }
 }

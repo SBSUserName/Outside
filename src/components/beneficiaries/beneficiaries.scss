@@ -9,6 +9,10 @@
         font-weight: 700;
         margin-bottom: 3rem;
     }
+
+    @media (max-width: 576px) {
+        padding: 20px 0 3rem 20px;
+    }
 }
 
 .beneficiaries-card-wrapper {
@@ -21,4 +25,8 @@
         font-size: 1.25rem;
         line-height: 1.25;
     }
+}
+
+.beneficiaries-card-wrapper {
+    cursor: pointer;
 }

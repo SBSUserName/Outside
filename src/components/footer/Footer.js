@@ -6,23 +6,30 @@ export default class Footer extends Component {
         return (
             <div className='footer-wrapper'>
                 <div className='container'>
-                    <div className='footer-brand'>
-                        <h4 className='mb-0'>COMPANY</h4>
-                        <div className='d-flex justify-content-between'>
-                            <div className='d-flex align-items-center'>
-                                <div className='line'></div>
+                    <div className='footer-header-sm'>
+                        <div className='footer-brand'>
+                            <h4 className='mb-0'>COMPANY</h4>
+                            <div className='d-flex justify-content-between'>
+                                <div className='d-flex align-items-center'>
+                                    <div className='line'></div>
+                                </div>
+                                <h6 className='mb-0'>NAME</h6>
+                                <div className='d-flex align-items-center'>
+                                    <div className='line'></div>
+                                </div>
                             </div>
-                            <h6 className='mb-0'>NAME</h6>
-                            <div className='d-flex align-items-center'>
-                                <div className='line'></div>
-                            </div>
+                        </div>
+
+                        <div className='social-links'>
+                            <i className='fab fa-twitter mr-4'></i>
+                            <i className='fab fa-linkedin-in'></i>
                         </div>
                     </div>
 
                     <div className='line'></div>
 
                     <div className='footer-nav'>
-                        <div>
+                        <div className="footer-nav-links">
                             <span>Founders</span>
                             <span>Beneficiaries</span>
                             <span>Scholarships</span>
@@ -31,20 +38,22 @@ export default class Footer extends Component {
                             <span>Contact</span>
                         </div>
 
-                        <div>
+                        <div className="social-links2">
                             <i className='fab fa-twitter mr-4'></i>
                             <i className='fab fa-linkedin-in'></i>
                         </div>
                     </div>
 
-                    <div className="footer-bottom">
-                        <div>
+                    <div className='footer-bottom'>
+                        <div className="copyright-links">
                             <span>Privacy Policy</span>
                             <span>Terms & Conditions</span>
                         </div>
 
                         <div>
-                            <span>© 2021 Company Name. All rights reserved.</span>
+                            <span>
+                                © 2021 Company Name. All rights reserved.
+                            </span>
                         </div>
                     </div>
                 </div>

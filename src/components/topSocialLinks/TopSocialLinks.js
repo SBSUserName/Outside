@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./topSocialLinks.scss";
 
 export default class TopSocialLinks extends Component {
     render() {

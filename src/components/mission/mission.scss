@@ -18,6 +18,29 @@
             background-image: url("../../assets/images/red_design.jpg");
             background-size: cover;
             background-repeat: no-repeat;
+
+            @media (max-width: 576px) {
+                right: 25px;
+                width: calc(100% - 25px);
+                bottom: -270px;
+                height: 355px;
+            }
         }
+
+        @media (max-width: 576px) {
+            height: 445px;
+        }
+    }
+
+    .mission-content {
+        width: 60%;
+
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        padding-right: 20px;
     }
 }

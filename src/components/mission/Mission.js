@@ -9,7 +9,7 @@ export default class Mission extends Component {
                     <div className='container'>
                         <h4 className='mb-4'>OUR MISSION</h4>
 
-                        <div style={{ width: 730 }}>
+                        <div className="mission-content">
                             <h2 className="mb-4">
                                 Imperdiet quis leo scelerisque nunc magna mattis
                                 vitae non non

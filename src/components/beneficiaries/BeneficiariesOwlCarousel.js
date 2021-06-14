@@ -15,6 +15,20 @@ export default class BeneficiariesOwlCarousel extends Component {
         super(props);
 
         this.state = {
+            options: {
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 4,
+                    },
+                },
+            },
+
             imagesArr: [
                 {
                     imageName: s_arch1,
@@ -78,7 +92,8 @@ export default class BeneficiariesOwlCarousel extends Component {
                 margin={70}
                 nav={false}
                 dots={false}
-                items='4'>
+                items='4'
+                {...this.state.options}>
                 {this.state.imagesArr.map((image) => (
                     <div className='item'>
                         <BeneficiariesCard
